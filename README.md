@@ -55,9 +55,16 @@ make test
 
 ```
 
-##Prerequisite
+
+## Prerequisites
+
+```$xslt
 brew install cpprestsdk & tbb
+brew install java
+```
+
 add cmake options in the IDE, -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl
+
 ```$xslt
 sudo apt install libcpprest-dev
 sudo apt install libtbb-dev
